@@ -1,0 +1,7 @@
+c:\users\jfinsel\documents\visual studio 2010\Projects\SQLPatchGenerator\GenerateSQLPatch\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\jfinsel\documents\visual studio 2010\Projects\SQLPatchGenerator\GenerateSQLPatch\bin\Debug\GenerateSQLPatch.exe
+c:\users\jfinsel\documents\visual studio 2010\Projects\SQLPatchGenerator\GenerateSQLPatch\bin\Debug\GenerateSQLPatch.pdb
+c:\users\jfinsel\documents\visual studio 2010\Projects\SQLPatchGenerator\GenerateSQLPatch\bin\Debug\SQLPatchGenerator.dll
+c:\users\jfinsel\documents\visual studio 2010\Projects\SQLPatchGenerator\GenerateSQLPatch\bin\Debug\SQLPatchGenerator.pdb
+c:\users\jfinsel\documents\visual studio 2010\Projects\SQLPatchGenerator\GenerateSQLPatch\obj\x86\Debug\GenerateSQLPatch.exe
+c:\users\jfinsel\documents\visual studio 2010\Projects\SQLPatchGenerator\GenerateSQLPatch\obj\x86\Debug\GenerateSQLPatch.pdb
