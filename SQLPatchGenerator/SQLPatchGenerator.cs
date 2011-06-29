@@ -56,7 +56,10 @@ namespace ReluctantDBA.SQLPatchGenerator
       cmd.Connection.Close();
       sb.AppendLine("'");
       if (updatePatch)
+      {
+        sb.AppendFormat("IF EXISTS(SELECT * FROM sys.all_objects WHERE name = '{0}' and schema_name(schema_id) = '{1}')\r\n", objectName, schemaName);
         sb.AppendFormat("exec sp_rename '{0}.{1}', '{1}-{2}', 'object';\r\n", schemaName, objectName, patchDate);
+      }
       sb.AppendLine("EXEC (@SQLCommand)");
       sb.AppendLine("END");
       sb.AppendLine("GO");
